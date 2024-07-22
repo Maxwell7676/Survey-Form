@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+    <section class="upper-part">
+        <h1>Survey Form</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptatem provident quisquam facilis magnam harum, ab dolores, odit voluptate ipsum molestiae repellendus? Delectus cumque expedita voluptatibus nemo esse iusto culpa.</p>
+    </section>
+
+    <section class="lower-part">
+        <section class="form-part-1">
+
+            <div class="form-part-1-upper-section">
+            <label for="Username">Your Name</label><br>
+            <input type="text" id="Username" placeholder="Enter Your Name"><br>
+
+            <label for="Email">Your Email</label><br>
+            <input type="email" id="email" placeholder="user@gmail.com"><br>
+
+            <label for="phone">Your Phone</label><br>
+            <input type="number" id="phone" placeholder="9999999999"><br>
+
+            <label for="city">Where Do You Live In</label><br>
+            <select name="" id="city">
+                <option value="select">select</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Delhi">Delhi</option>
+            </select><br>
+            </div>
+            
+            <fieldset>
+                <legend>Age</legend>
+
+                <div class="fieldset-part-1">
+                <input type="radio" name="age" value="15 - 20">
+                <label for="">15-20</label><br>
+                <input type="radio" name="age" value="21 - 30">
+                <label for="">21-30</label><br>
+                <input type="radio" name="age" value="31 - 40">
+                <label for="">31-40</label><br>
+                </div>
+
+                <div class="fieldset-part-2">
+                <input type="radio" name="age" value="41 - 50">
+                <label for="">41-50</label><br>
+                <input type="radio" name="age" value="preference">
+                <label for="">preference</label><br>
+                </div>
+            </fieldset><br>
+
+            <div class="form-part-1-lower-section">
+            <label for="rate">How Would You Rate Your Proficiency in Coding</label><br>
+            <input type="radio" name="rate"> Begginer <br>
+            <input type="radio" name="rate"> Intermediate <br>
+            <input type="radio" name="rate"> Advance <br>
+            </div>
+
+        </section>
+        <section class="form-part-2">
+
+            <label for="">Have you ever appeared in any coding contest ?</label><br>
+            <input type="radio" name="code">
+            <label for="">Yes</label><br>
+            <input type="radio" name="code">
+            <label for="">No</label><br>
+
+            <label for="">Discus what drives your passion for coding & outline your aspiration in the field ?</label><br>
+            <textarea name="" id="passion" rows="5" cols="5" ></textarea><br>
+
+            <label for="">what are some of the challenges you face while coding ?</label><br>
+            <textarea name="" id="challenges" rows="5" cols="5"></textarea><br>
+
+            <label for="">Please list the data structures you have a strong understanding of. </label><br>
+            <textarea name="" id="datastructer" rows="5" cols="5"></textarea><br>
+
+            <input type="submit" value="Submit" id="submit">
+
+        </section>
+    </section>
+    </main>
+</body>
+</html>
